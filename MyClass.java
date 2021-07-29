@@ -52,9 +52,9 @@ public class MyClass {
      for(int itr =0; itr< lengthOfArray; itr++ ){  
      
     	 b1.append(ReverseList.get(itr));
-    	 if(itr != lengthOfArray -1 ) {}
+    	 if(itr != lengthOfArray -1 )  { 	 b1.append(" "); }
     	 
-    	 b1.append(" ");
+    
     	 
    }  
   System.out.println(b1.toString());
